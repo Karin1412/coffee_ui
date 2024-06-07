@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <script src="./main.js" type="text/javascript" async></script>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
                 <nav class="flex flex-row justify-between items-center p-8">
                     <div class="logo basis-2/6 text-center font-bold text-xl cursor-pointer">KarinStyle.</div>
 
-                    <ul class="basis-3/6 flex justify-end items-center gap-8 text-sm font-medium uppercase text-gray-500">
+                    <ul id="karin-top-menu" class="basis-3/6 hidden lg:flex lg:justify-end lg:items-center lg:gap-8 text-sm font-medium uppercase text-gray-500">
                         <li class="cursor-pointer py-1 hover:text-amber-700 relative after:absolute after:bottom-0 after:left-0 after:bg-amber-700 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-500">
                             <a href="" class="">HOME</a>
                         </li>
@@ -35,7 +36,7 @@
                         </li>
                     </ul>
 
-                    <ul class="basis-1/6 flex justify-start items-center ml-16 text-gray-500 font-medium text-sm uppercase">
+                    <ul class="basis-3/6 lg:basis-1/6 flex justify-end lg:justify-start items-center ml-16 text-gray-500 font-medium text-sm uppercase">
                         <li>
                             <a href="" class="cursor-pointer flex items-center py-1 hover:text-amber-700 relative after:absolute after:bottom-0 after:left-0 after:bg-amber-700 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-500">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -49,6 +50,14 @@
                             </a>
                         </li>
                     </ul>
+
+                    <div class="basis-1/6 lg:hidden flex items-center cursor-pointer px-2 sm:px-4">
+                        <svg id="karin-top-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            class="karin-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+
+                    </div>
                 </nav>
             </header>
             
