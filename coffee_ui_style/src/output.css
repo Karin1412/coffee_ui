@@ -580,6 +580,10 @@ video {
   display: none;
 }
 
+.h-\[530px\] {
+  height: 530px;
+}
+
 .max-w-screen-2xl {
   max-width: 1536px;
 }
@@ -628,6 +632,50 @@ video {
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\.\/\'\)\] {
+  background-image: url('./');
+}
+
+.bg-\[url\(\'\.\/assets\/\'\)\] {
+  background-image: url('./assets/');
+}
+
+.bg-\[url\(\'\.\/assets\/slider\.\'\)\] {
+  background-image: url('./assets/slider.');
+}
+
+.bg-\[url\(\'\.\/assets\/slider\.web\'\)\] {
+  background-image: url('./assets/slider.web');
+}
+
+.bg-\[url\(\'\.\/assets\/slider\.webp\'\)\] {
+  background-image: url('./assets/slider.webp');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-6 {
